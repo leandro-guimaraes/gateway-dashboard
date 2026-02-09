@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Image from "next/image"
 import {
   IconChartBar,
   IconDashboard,
@@ -128,7 +129,7 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
     {/* Header */}
     <SidebarHeader className="flex items-start px-3 py-1.5">
       <a href="#" className="flex items-start gap-2">
-        <img
+        <Image
           src="/kairos-way.png"
           alt="Kairos Way"
           className="h-28 w-auto object-contain"
