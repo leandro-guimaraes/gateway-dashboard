@@ -127,15 +127,20 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="offcanvas" {...props}>
     {/* Header */}
-    <SidebarHeader className="flex items-start px-3 py-1.5">
-      <a href="#" className="flex items-start gap-2">
-        <Image
-          src="/kairos-way.png"
-          alt="Kairos Way"
-          className="h-28 w-auto object-contain"
-        />
-      </a>
-    </SidebarHeader>
+   <SidebarHeader className="flex items-start px-3 py-1.5">
+  <a href="#" className="flex items-start gap-2">
+    <div className="relative h-28 w-40">
+      <Image
+        src="/kairos-way.png"
+        alt="Kairos Way"
+        fill
+        className="object-contain"
+        priority
+      />
+    </div>
+  </a>
+</SidebarHeader>
+
 
 
       {/* Conteúdo */}
