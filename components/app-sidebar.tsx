@@ -25,14 +25,7 @@ import {
 } from "@/components/ui/sidebar"
 
 
-/* =========================================================
-   Dados do usuário
-========================================================= */
-const user = {
-  name: "Leandro Guimarães",
-  email: "olamundo.ti@gmail.com",
-  avatar: "https://avatars.githubusercontent.com/u/85081592?v=4&size=64",
-}
+
 
 /* =========================================================
    Grupos do menu principal
