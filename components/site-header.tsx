@@ -1,8 +1,6 @@
 import { Separator } from "@/components/ui/separator"
 import { SidebarTrigger } from "@/components/ui/sidebar"
 import { ToggleTheme } from "./toggle-theme"
-import { AvatarWithBadge } from "./ui/AvatarWithBadge"
-import { Nav } from "react-day-picker"
 import { NavUser } from "./nav-user"
 
 export function SiteHeader() {

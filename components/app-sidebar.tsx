@@ -4,14 +4,10 @@ import * as React from "react"
 import {
   IconChartBar,
   IconDashboard,
-  IconDatabase,
   IconCurrencyDollar,
-  IconFileWord,
   IconFolder,
   IconHelp,
-  IconInnerShadowTop,
   IconFileDollar,
-  IconReport,
   IconSearch,
   IconSettings,
   IconUsers,
@@ -26,11 +22,9 @@ import {
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
+ 
 } from "@/components/ui/sidebar"
-import { MenuSquareIcon } from "lucide-react"
+
 
 /* =========================================================
    Dados do usuário
